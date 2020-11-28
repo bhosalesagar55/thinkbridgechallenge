@@ -48,8 +48,8 @@ public class NumberToWord {
 		String numberToWord = "";
 		String decimalString = null;
 		String input = null;
-		System.out.println("Please Enter your number: ");
 		while(true) {
+			System.out.println("Please Enter your number: ");
 			input = null;
 			input = sc.nextLine();
 			if(input.length() <= 0 ) {
